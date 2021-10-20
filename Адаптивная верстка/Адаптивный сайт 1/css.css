@@ -1,0 +1,175 @@
+
+div {
+    font-family: Verdana;
+    font-size: 14px;
+}
+   @media screen and (min-width: 700px){
+
+    body {
+        background-image: url("bg-illu4.jpg");
+        width: 100%;
+        height: 100%;
+    }
+
+    .blocks div {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin: -2px;
+    }
+
+
+    .blocks{
+        position: relative;
+        width: 610px;
+        height: 610px;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+
+    .blocks div p{
+        text-align: center;
+        vertical-align: middle;
+        margin-top: 45%;
+    }
+
+    
+
+    .blocks .b_5 p {
+        margin-top: 75%;
+        color: rgb(158, 153, 152);
+    }
+
+    .b_1{
+        display: inline-block;
+        background-color:#880088;
+    }
+    .b_2{
+        background-color:#000088;
+    }
+    .b_3{
+        background-color: #880000;
+    }
+
+    .b_4{
+        background-color: #000088;
+    }
+    .b_5{
+        background-image: url("logo-t4d-canvas.png");
+        background-size: 120px 100px;
+        background-repeat: no-repeat;
+        vertical-align: bottom;
+        background-position:center;
+    }
+    .b_6{
+        background-color: #880088;
+    }
+
+    
+    .b_7{
+        background-color: #880000;
+    }
+    .b_8{
+        background-color: #880088;
+    }
+    .b_9{
+        background-color: #000088;
+    }
+    .b_1:hover{background-color: #884488;} 
+    .b_2:hover{background-color: #444488;} 
+    .b_3:hover{background-color: #884444;} 
+    .b_4:hover{background-color: #444488;} 
+    .b_6:hover{background-color: #884488;} 
+    .b_7:hover{background-color: #884444;} 
+    .b_8:hover{background-color: #884488;} 
+    .b_9:hover{background-color: #444488;}
+
+
+   }
+
+   @media screen and (max-width: 700px) {
+    
+    body {
+        background-image: url("bg-illu1.jpg");
+        min-width: 300px;
+        
+    }
+
+    div {
+
+        width: 100%;  
+        font-size: 14px;
+    }
+    
+    .blocks div {
+        width: 250px;
+        height: 50px;
+        margin: 0px;
+
+    }
+
+    .blocks{
+        position: relative;
+        width: 300px;
+        height: 150px;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+
+    .blocks div p{
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .blocks .b_5 {
+        width: 250px;
+        height: 50px;
+        
+    }
+
+    .blocks .b_5 p {
+        visibility: hidden;
+    }
+
+    .b_1{
+        background-color:#880088;
+    }
+    .b_2{
+        background-color:#000088;
+    }
+    .b_3{
+        background-color: #880000;
+    }
+    .b_4{
+        background-color: #000088;
+    }
+    .b_5{
+        background-image: url("logo-t4d-canvas.png");
+        background-size: 80px 50px;
+        background-repeat: no-repeat;
+        background-position:center;
+    }
+    .b_6{
+        background-color: #880088;
+    }
+    .b_7{
+        background-color: #880000;
+    }
+    .b_8{
+        background-color: #880088;
+    }
+    .b_9{
+        background-color: #000088;
+    }
+
+    .b_1:hover{background-color: #884488;} 
+    .b_2:hover{background-color: #444488;} 
+    .b_3:hover{background-color: #884444;} 
+    .b_4:hover{background-color: #444488;} 
+    .b_6:hover{background-color: #884488;} 
+    .b_7:hover{background-color: #884444;} 
+    .b_8:hover{background-color: #884488;} 
+    .b_9:hover{background-color: #444488;}
+}

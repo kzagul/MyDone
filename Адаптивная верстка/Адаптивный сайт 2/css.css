@@ -1,0 +1,184 @@
+@media screen and (max-width: 1600px ){
+    body {
+        width: 100%;
+        height: 100%;
+        font-size: 18px;
+        font-family:sans-serif;
+    }
+    .left_side {
+        position: fixed;
+        background-color:rgb(46, 49, 83);
+        font-size: 16px;
+        min-width: 145px;
+        max-width: 180px;
+        width: 20%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .left_side ul :hover {
+         background-color:rgb(89, 94, 139);
+    }
+
+    .left_side .logo_text p {
+        font-size: 12px;
+        color: rgb(139, 156, 141);
+        text-align: center;
+        margin: 1em;
+    }
+    
+    .social_img .tw_icon{
+        content: url("images/social.png");
+        width: 20%;
+    }
+
+    .social {
+        text-align: center;
+    }
+
+    /*1-ая картинка*/
+    .left_side .logo_text img {
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 90%;
+    }
+
+    .left_menu p{
+        text-align: center;
+    }
+
+    .left_side .left_menu li {
+        list-style-type: none;
+    }
+
+    .left_side .left_menu li a {
+        color: white;
+        margin: 1px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+
+    .wrapper {
+        margin-left: 21%;
+        margin-right: 80px;
+        padding-left: 8px;
+        background-color: white;
+    }
+
+    .wrapper .image_center img {
+        min-width: 350px;
+        max-width: 900px;
+        width: 85%; 
+        height: auto;
+    }
+
+    .image_center {
+        text-align: center;
+    }
+
+    /*Footer*/
+    .footer {
+        text-align: center;
+    }
+    .footer_block {
+        display: inline-table;
+        width: 26%;
+        padding: 12px;
+    }
+    .footer img {
+        width: 130px;
+        height: auto;
+    }
+    .footer_block p {
+        font-size: 14px;
+    }
+
+}
+
+
+@media screen and (max-width: 700px ){
+
+
+    body {
+        width: 100%;
+        height: 100%;
+        font-size: 14px;
+        font-family:sans-serif;
+    }
+
+    .left_side {
+        position: fixed;
+        background-color:rgb(46, 49, 83);
+        min-width: 50px;
+        max-width: 110px;
+        width: 15%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .social_img {
+        visibility: hidden;
+    }
+
+    .left_side .logo_text p {
+        /*font-size: 12px;
+        color: rgb(139, 156, 141);
+        text-align: center;
+        margin: 1em;*/
+        visibility: hidden;
+    }
+
+    .left_side .left_menu ul {
+        visibility: hidden;
+
+    }
+
+    .left_side .logo_text img {
+        content: url("images/swipe.png");
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 35%;
+    }
+
+    .left_side h1 {
+        text-align: center;
+    }
+
+
+    .wrapper {
+        margin-left: 21%;
+        margin-right: 40px;
+        padding-left: 10px;
+        background-color: white;
+    }
+    .wrapper .image_center img {
+        width: 350px; 
+        height: 250px;
+    }
+
+    .image_center {
+        text-align: center;
+    }
+
+    .wrapper h2 {
+        font-weight: 16px;
+    }
+
+    /*Footer*/
+    .footer {
+        text-align: center;
+    }
+    .footer_block {
+        display: inline-table;
+        width: 26%;
+        padding: 8px;
+    }
+    .footer img {
+        width: 100px;
+        height: auto;
+    }
+    .footer_block p {
+        font-size: 12px;
+    }
+
+}
