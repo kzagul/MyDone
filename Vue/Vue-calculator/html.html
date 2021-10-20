@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vue.js</title>
+    <meta charset="utf-8" />
+    <link rel=stylesheet href="css.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+    <div id="app">
+        <div class="grid">
+            <input @keyup.enter="calc()" type="text" v-model="result" placeholder="0"> 
+            <button v-on:click="input(num)" class="cell num" v-for="num in numbers">{{num}}</button>
+            <button v-on:click="input(op)" class="cell op" v-for="op in operations">{{op}}</button>
+            <button v-on:click="reset()" class="cell op">R</button>
+            <button v-on:click="calc()" class="cell op">=</button>
+        </div>
+
+    
+    </div>
+
+    <div class="history">
+        <p>{{s}}</p>
+    
+    </div>
+
+    <template>
+        <calendar :show-date-picker.sync="showDatePicker" :time.sync="time" :date-value.sync="dateValue"
+            v-if="showDatePicker" transition="calendar"></calendar>
+    </template>
+    
+</body>
+<script src="js.js"></script>
+</html>
